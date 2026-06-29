@@ -2,6 +2,8 @@
 
 import torch.nn as nn
 
+#test si shape des données donne torch.Size([16, n_features]) -> modèle MLP
+
 class Brain_Model(nn.Module):
     def __init__(self):
         super().__init__()
