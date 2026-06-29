@@ -1,6 +1,7 @@
 # dataset pytorch
 
 from torch.utils.data import Dataset
+from preprocessing import load_eeg, create_epochs, normalize
 
 class Open_dataset(Dataset):
 
