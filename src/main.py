@@ -18,6 +18,11 @@ def main():
         batch_size=16,
         shuffle=True
     )
+    # X, y = next(iter(train_loader))
+    #
+    # print(X.shape)
+    # print(y.shape)
+    # print(X.dtype)
 
     test_loader = DataLoader(
         test_dataset,
