@@ -3,7 +3,7 @@
 from torch.utils.data import Dataset
 from preprocessing import load_eeg, create_epochs, normalize
 
-class Open_dataset(Dataset):
+class OpenDataset(Dataset):
 
     def __init__(self, data, transform=None):
         self.data = data
