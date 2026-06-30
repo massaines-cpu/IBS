@@ -23,13 +23,12 @@ Pour l'instant les fichiers sont connectés mais modèle et traitement de donné
 
 # Ce qui a été fait 30/06/2026
 
-Création arborescence data :
-Création de l'arborescence :
+création de l'arborescence :
 
-data/
-- raw/
-- preprocessed/
-- metadata/
+`data/`
+- `raw/`
+- `preprocessed/`
+- `metadata/`
 
 ## Exploration des données 
 
@@ -37,12 +36,13 @@ Les données brutes :
 - format : .edf 
 - 41 canaux EEG 
 - fréquence : 512 Hz 
-- durée ≈ 24 minutes
+- durée = 24 minutes
 
 Les données prétraitées :
 - 44 époques
 - 41 canaux
 - durée époque 10 secondes : réparties en 2 fenêtres -> 5-15s = 22 époques ; 25-35s = 22
+
 a quoi correspondent S 1, S 2, S 6, S 7, S 11, S 12 CMS in range ?
 
 métadonnées dispo :
