@@ -44,5 +44,5 @@ def main():
     evaluate(model, test_loader, loss_fn)
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
